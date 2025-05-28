@@ -15,7 +15,7 @@ TotalViews INT);
 
 -- create Users table
 CREATE TABLE Users(
-UserID INT PRIMARY KEY,
+UserID VARCHAR(50) PRIMARY KEY,
 Age INT,
 Gender CHAR(1),
 Country VARCHAR(10),
@@ -32,3 +32,4 @@ Rating DECIMAL(2,1),
 Timestamp DATETIME, 
 FOREIGN KEY (UserID) REFERENCES Users(UserID),
 FOREIGN KEY (MovieID) REFERENCES Movies(MovieID));
+
