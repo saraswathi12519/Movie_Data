@@ -2,7 +2,7 @@
 CREATE DATABASE Streamflix_db;
 
 -- use database
-USE Steamflix_db;
+USE Streamflix_db;
 
 -- create Movies table
 CREATE TABLE Movies (
